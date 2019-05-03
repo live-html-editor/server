@@ -28,16 +28,16 @@ export function getAsArray(x: any): any[] {
 /**
  * https://stackoverflow.com/a/55661801/5318303
  */
-export function getLineBreakChar(string: string): string {
-	const indexOfLF = string.indexOf('\n', 1);  // No need to check first-character
+export function getLineBreakChar(str: string): string {
+	const indexOfLF = str.indexOf('\n', 1);  // No need to check first-character
 	
 	if (indexOfLF === -1) {
-		if (string.indexOf('\r') !== -1) return '\r';
+		if (str.indexOf('\r') !== -1) return '\r';
 		
 		return '\n';
 	}
 	
-	if (string[indexOfLF - 1] === '\r') return '\r\n';
+	if (str[indexOfLF - 1] === '\r') return '\r\n';
 	
 	return '\n';
 }

@@ -36,6 +36,10 @@
 		"url": "https://github.com/live-html-editor/server/issues"
 	},
 	"homepage": "https://github.com/live-html-editor/server#readme",
+	"prettier": {
+		"semi": false,
+		"singleQuote": true
+	},
 	"dependencies": {
 		"body-parser": "^1.18.3",
 		"cors": "^2.8.5",
@@ -50,6 +54,9 @@
 		"@types/jsdom": "^12.2.3",
 		"@types/node": "^11.13.5",
 		"@types/yargs": "^13.0.0",
+		"tslint": "^5.16.0",
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-config-standard": "^8.0.1",
 		"ts-loader": "^5.3.3",
 		"typescript": "^3.4.3"
 	}

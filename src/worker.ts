@@ -53,6 +53,7 @@ export default function worker(req: Req, res: Response) { //console.debug(req.so
 				
 				++b;
 				
+				// tslint:disable-next-line
 				if (true)
 					output =
 							htmlString.substring(0, a) + fileLineBreak +
@@ -65,7 +66,8 @@ export default function worker(req: Req, res: Response) { //console.debug(req.so
 					const startTagBounds = dom.nodeLocation(TODO1).startTag;
 					const bounds = startTagBounds.attrs.value;
 					
-					let a2, b2;
+					let a2;
+					let b2;
 					let altText = `value="${sourceFilePath}"`;
 					
 					if (bounds === undefined) {
