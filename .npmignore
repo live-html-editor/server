@@ -1,5 +1,5 @@
-/src/
-tsconfig.json
-tslint.json
-.gitignore
-*.iml
+*
+!/LICENSE
+!/dist/types/**/*
+!/dist/*.js
+!/dist/*.js.map
