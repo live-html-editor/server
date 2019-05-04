@@ -1,6 +1,6 @@
 {
 	"name": "@live-html-editor/server",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "A server for @live-html-editor/browser",
 	"main": "dist/main.js",
 	"bin": {
@@ -44,7 +44,7 @@
 		"body-parser": "^1.18.3",
 		"cors": "^2.8.5",
 		"express": "^4.16.4",
-		"jsdom": "^14.0.0",
+		"jsdom": "^15.0.0",
 		"source-map-support": "^0.5.12",
 		"yargs": "^13.2.2"
 	},
@@ -61,6 +61,6 @@
 		"typescript": "^3.4.3"
 	},
 	"peerDependencies": {
-		"@live-html-editor/browser": "~0.1.4"
+		"@live-html-editor/browser": "~0.1.5"
 	}
 }
