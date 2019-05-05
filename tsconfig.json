@@ -6,19 +6,21 @@
 			"es2018",
 			"dom"
 		],
-		"module": "commonjs",
+		"module": "umd",
 		"moduleResolution": "node",
 		"target": "es6",
-		"sourceMap": true,
-		"typeRoots": [
-			"node_modules/@types"
-		],
-		"types": [
-			"node",
-			"yargs",
-			"cors",
-			"jsdom"
-		]
+		"sourceMap": true
+		
+//		"typeRoots": [
+//			"node_modules/@types"
+//		],
+//		"types": [
+//			"node",
+//			"yargs",
+//			"cors",
+//			"jsdom"
+//		]
+		
 		//"resolveJsonModule": true
 		//"esModuleInterop": true // `esModuleInterup` Conflicts with `yargs` (only when using `--help` (!))
 	},
