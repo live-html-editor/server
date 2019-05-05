@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import 'source-map-support/register';
+import 'source-map-support/register'; //console.trace(new Error().stack)
 import * as yargs from 'yargs';
 
 import * as express from 'express';

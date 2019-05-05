@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"outDir": "./dist/",
+		"outDir": "dist",
 		"noImplicitAny": true,
 		"lib": [
 			"es2018",
@@ -9,7 +9,13 @@
 		"module": "umd",
 		"moduleResolution": "node",
 		"target": "es6",
-		"sourceMap": true
+		"strict": true,
+		"sourceMap": true,
+		"declaration": true,
+		"declarationDir": "dist/types",
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true
 		
 //		"typeRoots": [
 //			"node_modules/@types"

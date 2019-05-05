@@ -3,11 +3,13 @@
 	"version": "0.1.5",
 	"description": "A server for @live-html-editor/browser",
 	"main": "dist/main.js",
+	"types": "dist/types/main.d.ts",
 	"bin": {
-		"live-server": "./dist/main.js"
+		"live-server": "dist/main.js"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
+		"prebuild": "rimraf dist",
 		"build": "tsc",
 		"watch": "tsc --watch",
 		"serve": "node dist/main.js",
@@ -54,10 +56,10 @@
 		"@types/jsdom": "^12.2.3",
 		"@types/node": "^11.13.5",
 		"@types/yargs": "^13.0.0",
+		"rimraf": "^2.6.3",
 		"tslint": "^5.16.0",
 		"tslint-config-prettier": "^1.18.0",
 		"tslint-config-standard": "^8.0.1",
-		"ts-loader": "^5.3.3",
 		"typescript": "^3.4.3"
 	},
 	"peerDependencies": {

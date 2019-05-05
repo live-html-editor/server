@@ -40,9 +40,9 @@ export default function worker(req: Req, res: Response) { //console.debug(req.so
 				const document = dom.window.document;
 				
 				const editableDomPath = sourceFile.domPath;
-				const editable = document.querySelector(editableDomPath);
+				const editable = document.querySelector(editableDomPath)!;
 				
-				const nodeLocation = dom.nodeLocation(editable);
+				const nodeLocation = dom.nodeLocation(editable)!;
 				const a = nodeLocation.startTag.endOffset;
 				let b = nodeLocation.endTag.startOffset;
 				
@@ -63,7 +63,7 @@ export default function worker(req: Req, res: Response) { //console.debug(req.so
 					const TODO1: any = null;
 					const TODO2: any = null;
 					
-					const startTagBounds = dom.nodeLocation(TODO1).startTag;
+					const startTagBounds = dom.nodeLocation(TODO1)!.startTag;
 					const bounds = startTagBounds.attrs.value;
 					
 					let a2;
@@ -72,7 +72,7 @@ export default function worker(req: Req, res: Response) { //console.debug(req.so
 					
 					if (bounds === undefined) {
 						const i = startTagBounds.startOffset;
-						a2 = b2 = i + /^<\w+/.exec(htmlString.substring(i, startTagBounds.endOffset))[0].length;
+						a2 = b2 = i + /^<\w+/.exec(htmlString.substring(i, startTagBounds.endOffset))![0].length;
 						altText = ' ' + altText;
 					} else {
 						a2 = bounds.startOffset;
