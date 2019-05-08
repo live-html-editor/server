@@ -1,17 +1,14 @@
 #!/usr/bin/env node
 
-import 'source-map-support/register'; //console.trace(new Error().stack)
 import * as yargs from 'yargs';
-
-import * as express from 'express';
-import {NextFunction, Request, Response} from 'express';
-import * as cors from 'cors';
-import * as bodyParser from 'body-parser';
+import express, {NextFunction, Request, Response} from 'express';
+import cors from 'cors';
+import bodyParser from 'body-parser';
 
 import worker from "./worker";
 
 /**
- * @author [S. Mahdi Mir-Ismaili](https://mirismaili.github.io).
+ * @author [S. Mahdi Mir-Ismaili](https://mirismaili.github.io)
  * Created on 1397/11/9 (2019/1/29).
  */
 

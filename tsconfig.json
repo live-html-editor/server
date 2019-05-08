@@ -6,7 +6,7 @@
 			"es2018",
 			"dom"
 		],
-		"module": "umd",
+		"module": "es2015",
 		"moduleResolution": "node",
 		"target": "es6",
 		"strict": true,
@@ -30,10 +30,7 @@
 		//"resolveJsonModule": true
 		//"esModuleInterop": true // `esModuleInterup` Conflicts with `yargs` (only when using `--help` (!))
 	},
-	"exclude": [
-		"node_modules"
-	],
-	"files": [
-		"src/main.ts"
+	"include": [
+		"src"
 	]
 }

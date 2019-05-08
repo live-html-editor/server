@@ -1,5 +1,5 @@
-import * as fs from "fs";
-import * as path from "path";
+import fs from "fs";
+import path from "path";
 
 import {Response} from "express";
 import {JSDOM} from "jsdom";
@@ -7,10 +7,9 @@ import {JSDOM} from "jsdom";
 import {deepGet, getAsArray, getLineBreakChar, getLineBreakName, SimpleLogger} from "./utilities";
 
 /**
- * @author [S. Mahdi Mir-Ismaili](https://mirismaili.github.io).
+ * @author [S. Mahdi Mir-Ismaili](https://mirismaili.github.io)
  * Created on 1398/1/31 (2019/4/20).
  */
-
 export default function worker(req: Req, res: Response) { //console.debug(req.sourceFiles);
 	const logger = new SimpleLogger();
 	try {

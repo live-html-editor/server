@@ -1,5 +1,5 @@
 /**
- * @author [S. Mahdi Mir-Ismaili](https://mirismaili.github.io).
+ * @author [S. Mahdi Mir-Ismaili](https://mirismaili.github.io)
  * Created on 1398/1/31 (2019/4/20).
  */
 
