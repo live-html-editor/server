@@ -15,7 +15,7 @@
 		<img src="https://david-dm.org/live-html-editor/server/dev-status.svg" alt="devDependency Status">
 	</a>
 	<a href="https://packagephobia.now.sh/result?p=@live-html-editor/server">
-		<img src="https://badgen.net/packagephobia/install/@live-html-editor/server" alt="install size">
+		<img src="https://packagephobia.now.sh/badge?p=@live-html-editor/server" alt="install size">
 	</a>
 	<br>
 	<a href="https://github.com/live-html-editor/server/blob/master/LICENSE">
