@@ -1,7 +1,4 @@
 <p dir="auto">
-	<a href="https://github.com/live-html-editor/server">
-			<img src="https://badge.fury.io/gh/live-html-editor%2Fserver.svg" alt="GitHub version">
-	</a>
 	<a href="https://npmjs.com/package/@live-html-editor/server">
 		<img alt="npm (scoped)" src="https://img.shields.io/npm/v/@live-html-editor/server.svg">
 	</a>
@@ -17,7 +14,6 @@
 	<a href="https://packagephobia.now.sh/result?p=@live-html-editor/server">
 		<img src="https://packagephobia.now.sh/badge?p=@live-html-editor/server" alt="install size">
 	</a>
-	<br>
 	<a href="https://github.com/live-html-editor/server/blob/master/LICENSE">
 		<img alt="GitHub" src="https://img.shields.io/github/license/live-html-editor/server.svg">
 	</a>

@@ -1,6 +1,6 @@
 {
 	"name": "@live-html-editor/server",
-	"version": "0.2.3",
+	"version": "0.2.4",
 	"description": "A server for @live-html-editor/browser",
 	"main": "dist/main.umd.js",
 	"module": "dist/main.esm.js",
@@ -15,8 +15,7 @@
 		"start": "rollup -cw",
 		"tsc": "tsc --module commonjs",
 		"tsc:watch": "tsc --module commonjs --watch",
-		"serve": "node dist/main.js",
-		"patch-and-publish": "npm version patch && npm publish"
+		"serve": "node dist/main.js"
 	},
 	"repository": {
 		"type": "git",

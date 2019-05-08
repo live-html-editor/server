@@ -17,7 +17,7 @@ const libVarName = camelCase(libraryName)
 export default {
 	input: `src/main.ts`,
 output: [
-	{file: pkg.main, name: libVarName, format: 'cjs', sourcemap: true, exports: 'named'},
+	{file: pkg.main, name: libVarName, format: 'umd', sourcemap: true, exports: 'named'},
 	{file: pkg.module, format: 'esm', sourcemap: true},
 ],
 	// Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
