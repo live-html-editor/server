@@ -16,11 +16,10 @@ const libVarName = camelCase(libraryName)
 // noinspection JSUnusedGlobalSymbols
 export default {
 	input: `src/main.ts`,
-output: [
-	{file: pkg.main, name: libVarName, format: 'umd', sourcemap: true, exports: 'named'},
-	{file: pkg.module, format: 'esm', sourcemap: true},
-],
-	// Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
+	output: [
+		{file: pkg.main, name: libVarName, format: 'umd', sourcemap: true, exports: 'named'},
+		//{file: pkg.module, format: 'esm', sourcemap: true},
+	],
 	external: [
 		'yargs',
 		'express',

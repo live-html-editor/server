@@ -14,10 +14,10 @@
 	<a href="https://packagephobia.now.sh/result?p=@live-html-editor/server">
 		<img src="https://packagephobia.now.sh/badge?p=@live-html-editor/server" alt="install size">
 	</a>
+	<br>
 	<a href="https://github.com/live-html-editor/server/blob/master/LICENSE">
 		<img alt="GitHub" src="https://img.shields.io/github/license/live-html-editor/server.svg">
 	</a>
-	<br>
 	<a href="https://github.com/live-html-editor/server/fork">
 		<img src="https://img.shields.io/github/forks/live-html-editor/server.svg?style=social" alt="GitHub forks">
 	</a>
