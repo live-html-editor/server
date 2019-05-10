@@ -1,6 +1,6 @@
 {
 	"name": "@live-html-editor/server",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"description": "A server for @live-html-editor/browser",
 	"main": "dist/main.umd.js",
 	"module": "dist/main.esm.js",
