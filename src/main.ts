@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import * as yargs from 'yargs';
 import express, {NextFunction, Request, Response} from 'express';
 import cors from 'cors';
