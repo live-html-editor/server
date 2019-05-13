@@ -37,7 +37,7 @@ app.post('/', cors(), (req, res) => {
 	worker(req.body, res);
 });
 
-app.use((req, res, next) => res.status(404).send(`Sorry can't find that!`));
+app.use((req, res, next) => res.status(404).send(`The page not found!`));
 
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 	console.error(err.stack);

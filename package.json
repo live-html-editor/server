@@ -12,9 +12,11 @@
 		"prebuild": "rimraf dist",
 		"build": "rollup -c --environment BUILD:production",
 		"watch": "rollup -cw",
+		"build:wp": "webpack --mode=production",
+		"watch:wp": "webpack --mode=development --watch",
 		"tsc": "tsc --module commonjs",
 		"tsc:watch": "tsc --module commonjs --watch",
-		"serve": "node dist/bundle.umd.js"
+		"run": "node -r source-map-support/register dist/bundle.umd.js"
 	},
 	"repository": {
 		"type": "git",
@@ -65,12 +67,17 @@
 		"rollup-plugin-terser": "^4.0.4",
 		"rollup-plugin-typescript2": "^0.21.0",
 		"temp-dir": "^2.0.0",
+		"terser-webpack-plugin": "^1.2.3",
+		"ts-loader": "^6.0.0",
 		"tslint": "^5.16.0",
 		"tslint-config-prettier": "^1.18.0",
 		"tslint-config-standard": "^8.0.1",
-		"typescript": "^3.4.3"
+		"typescript": "^3.4.3",
+		"webpack": "^4.30.0",
+		"webpack-cli": "^3.3.0",
+		"webpack-node-externals": "^1.7.2"
 	},
 	"peerDependencies": {
-		"@live-html-editor/browser": "~0.1.5"
+		"@live-html-editor/browser": "~0.2.0"
 	}
 }

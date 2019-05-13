@@ -31,8 +31,8 @@ module.exports = {
 	},
 	externals: [nodeExternals()],
 	output: {
-		filename: 'bundle.umd.js',
-		path: './dist',
+		filename: 'bundle-wp.umd.js',
+		path: path.resolve(__dirname, 'dist'),
 		library: libVarName,
 		libraryTarget: 'umd',
 	},
