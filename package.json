@@ -1,6 +1,6 @@
 {
 	"name": "@live-html-editor/server",
-	"version": "0.2.5",
+	"version": "0.2.7",
 	"description": "A server for @live-html-editor/browser",
 	"main": "dist/bundle.umd.js",
 	"types": "dist/types/main.d.ts",
